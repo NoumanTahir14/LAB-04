@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      debugShowCheckedModeBanner: false, // Disable the debug banner
+      debugShowCheckedModeBanner: false, 
       home: MyHomePage(),
     );
   }
@@ -23,7 +23,7 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text('Simple UI')),
-      backgroundColor: Colors.grey, // Set the background color here
+      backgroundColor: Colors.grey, 
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
